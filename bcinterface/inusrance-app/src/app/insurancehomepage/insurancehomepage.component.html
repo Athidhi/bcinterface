@@ -1,0 +1,73 @@
+<div>
+    <form>
+    <h1>Insurance Claim Form</h1>
+    <h5>Patient's Name</h5>
+    <label for="fname">Firstname: </label>
+    <input type="text" id="fname" value="Firstname">
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" value="Lastname"><br><br>
+    <h5>Patient's Birth Date</h5>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+    <h5>Patient's Gender</h5>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <h5>Patient's Address</h5>
+    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+    <label for="city"><i class="fa fa-institution"></i> City</label>
+    <input type="text" id="city" name="city" placeholder="New York">
+    <label for="state">State</label>
+    <input type="text" id="state" name="state" placeholder="NY">
+    <label for="zip">Zip</label>
+    <input type="text" id="zip" name="zip" placeholder="10001">
+    <h5>Patient's Phone Number</h5>
+    <label for="phone">Enter a phone number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        required><br>
+    <small>Format: 123-45-678</small><br>
+    <h5>Patient's Relatiosnship to insured</h5>
+    <input type="radio" id="self" name="relation" value="self">
+    <label for="self">Self</label><br>
+    <input type="radio" id="spouse" name="relation" value="spouse">
+    <label for="spouse">Spouse</label><br>
+    <input type="radio" id="child" name="relation" value="child">
+    <label for="child">Child</label><br>
+    <input type="radio" id="other" name="relation" value="other">
+    <label for="other">Other</label>
+    <h5>Patient's Status</h5>
+    <input type="checkbox" id="single" name="single" value="single">
+    <label for="single"> Single </label><br>
+    <input type="checkbox" id="married" name="married" value="married">
+    <label for="married"> Married </label><br>
+    <input type="checkbox" id="employed" name="employed" value="employed">
+    <label for="employed"> Employed </label><br>
+    <input type="checkbox" id="unemployed" name="unemployed" value="unemployed">
+    <label for="unemployed"> UnEmployed </label><br>
+    <input type="checkbox" id="fulltimestudent" name="fulltimestudent" value="fulltimestudent">
+    <label for="fulltimestudent"> Full Time Student</label><br>
+    <input type="checkbox" id="unemployed" name="parttimestudent" value="parttimestudent">
+    <label for="parttimestudent"> Part Time Student </label><br><br>
+    <h5>Is Patient's Condition Related To</h5><br>
+    <h6>Employment </h6>
+    <input type="radio" id="yes" name="yes" value="yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="no" value="no">
+    <label for="no">No</label> <br>
+    <h6>Auto Accident </h6> 
+    <input type="radio" id="yes" name="yes" value="yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="no" value="no">
+    <label for="no">No</label> <br>
+    <h6>Other Accident </h6>
+    <input type="radio" id="yes" name="yes" value="yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="no" value="no">
+    <label for="no">No</label> <br>
+    <input type="submit" value="Save">
+</form>
+</div>
